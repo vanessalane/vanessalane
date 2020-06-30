@@ -2,40 +2,61 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>HTML + CSS</title>
-
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Vanessa Lane</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <header>
-      <h1>Your Name</h1>
+    <header class="container">
+      <div class="header-body content">
+        <h1>Vanessa Lane</h1>
+        <div class="subheader">
+          <p class="subheader-text">San Francisco-based Full-Stack Web Developer</p>
+        </div>
+      </div>
     </header>
 
-    <div class="container">
-      <section id="main-bio">
-        <h2>Portfolio</h2>
+    <section id="projects" class="container">
+      <div class="content">
+        <h2 class="section-title">Projects</h2>
+        <div id="projects-container">
+          <a href="https://vanessalane.github.io/weather-dashboard/" class="card">
+            <div class="card-content">
+              <h3 class="card-title">Weather Dashboard</h3>
+              <p class="card-body">JavaScript, HTML, CSS</p>
+            </div>
+          </a>
+          <a href="https://vanessalane.github.io/code-quiz/" class="card">
+            <div class="card-content">
+              <h3 class="card-title">JS Code Quiz</h3>
+              <p class="card-body">JavaScript, HTML, CSS</p>
+            </div>
+          </a>
+          <a href="https://vanessalane.github.io/workday-scheduler/" class="card">
+            <div class="card-content">
+              <h3 class="card-title">Workday Scheduler</h3>
+              <p class="card-body">JavaScript, HTML, CSS</p>
+            </div>
+          </a>
+          <a href="https://vanessalane.github.io/password-generator/" class="card">
+              <div class="card-content">
+                <h3 class="card-title">Password Generator</h3>
+                <p class="card-body">JavaScript, HTML, CSS</p>
+              </div>
+          </a>
+      </div>
+    </section>
 
-        <img
-          id="bio-image"
-          src="https://placehold.it/200x200"
-          alt="Your Name"
-        />
-
-        <p>
-          Write a short paragraph or two about yourself, or use placeholder text
-          from <a href="http://www.lipsum.com/">www.lipsum.com</a>
-        </p>
-      </section>
-
-      <section id="contact-info">
-        <h2>Contact Info</h2>
+    <section id="contact-info" class="container">
+      <div class="content">
+        <h2 class="section-title">Get in Touch</h2>
         <ul>
-          <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-          <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-          <li><strong>LinkedIn:</strong> <a href="#">coming soon</a></li>
+          <li><a href="mailto:vlane0593@gmail.com">vlane0593@gmail.com</a></li>
+          <li><a href="https://github.com/vanessalane">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/vanessa-lane/">LinkedIn</a></li>
         </ul>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
 </html>
