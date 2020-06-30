@@ -74,13 +74,9 @@ header.container {
 /* card styles start */
 .card {
     background: #fff;
+    border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,.08);
     transition: box-shadow .1s ease-in-out;
-    padding: 30px;
-}
-
-.card-title {
-    padding-bottom: 20px;
 }
 
 .card:hover {
@@ -93,6 +89,7 @@ header.container {
 
 .card-content {
     color: #000;
+    padding: 30px;
 }
 /* card styles end */
 
